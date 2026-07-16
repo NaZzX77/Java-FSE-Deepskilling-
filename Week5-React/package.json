@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:handson1": "npm --workspace HandsOn1 run build",
+    "build:handson2": "npm --workspace HandsOn2 run build",
+    "build:handson3": "npm --workspace HandsOn3 run build",
+    "build:handson4": "npm --workspace HandsOn4 run build",
+    "build:handson5": "npm --workspace HandsOn5 run build",
+    "build:handson9": "npm --workspace HandsOn9 run build",
+    "build:handson10": "npm --workspace HandsOn10 run build",
+    "build:handson11": "npm --workspace HandsOn11 run build",
+    "build:handson12": "npm --workspace HandsOn12 run build",
+    "build:handson13": "npm --workspace HandsOn13 run build"
+  },
+  "workspaces": [
+    "HandsOn1",
+    "HandsOn2",
+    "HandsOn3",
+    "HandsOn4",
+    "HandsOn5",
+    "HandsOn9",
+    "HandsOn10",
+    "HandsOn11",
+    "HandsOn12",
+    "HandsOn13"
+  ],
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {}
+}

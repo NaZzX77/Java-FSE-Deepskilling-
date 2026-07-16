@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+.score-card {
+  border: 1px solid black;
+  padding: 20px;
+  width: 320px;
+}

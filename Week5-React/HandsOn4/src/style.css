@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+.post {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
